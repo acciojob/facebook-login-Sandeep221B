@@ -1,8 +1,66 @@
 <html>
   <head>
     <title>Facebook Login</title>
+	  <style>
+		  body{
+			  background-color:#f6f6f6;
+			  display:flex;
+			  justify-content:center;
+			  align-items:center;
+			  height:100vh;
+		  }
+		  .leftside{
+			  padding:20px;
+			  margin-top:30px;
+			  width:450px;
+			  margin-top:70px;
+			  display:inline-block;
+		  }
+		  form{
+			  display:flex;
+			  flex-direction:column;
+			  height:200px;
+			  width:300px;
+			  background-color:white;
+			  padding:20px;
+			  margin:0px;
+			  border-radius:5px;
+			  box-shadow:0 0 10px #ccc;
+			  justify-items:center;
+			  gap:10px;
+		  }
+		  .button{
+			  background-color:#1877f2;
+			  border-radius:5px;
+			  padding:10px 20px;
+			  width:100%;
+		  }
+		  .link{
+			  color:#1877f2;
+		  }
+		  .signup{
+			  background-color:42b72a;
+		  }
+		  
+	  </style>
   </head>
   <body>
+	 
+		  <div class="leftside">
+			  <img class="logo" src="https://i.pinimg.com/236x/83/fe/23/83fe23b3e3f653032e95d25b9ae1ed6a.jpg" alt="facebook">
+			  <p class="para">Facebook helps you connect and share with the people in your life.</p>
+		  </div>
+		  <div class="rightside">
+			  <form>
+			  <input type="text" id="email" placeholder="Email address or phone number">
+			  <input type="password" id="password" placeholder="password">
+			  <button type="submit" class="button">Log in</button>
+			  <a clas="link" href="##">Forgotten account?</a>
+			  <button type="submit" clas="signup">Create new account</button>
+			  </form>
+			 
+		  </div>
+	 
     <!-- Write your code here -->
   </body>
 </html>
